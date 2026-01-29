@@ -119,14 +119,14 @@ APP_URL=http://localhost/chat
 - Access the project via your browser: http://localhost/chat.
 - The Magic Happens: The system will detect it's the first run, automatically create the database, tables, and triggers, then redirect you to the Login/Signup page.
 
-### Screens
-### Register
-<img width="900" height="750" alt="register" src="https://github.com/user-attachments/assets/11483cf3-06e1-4bfb-b407-7e702a61eadf" />
-### Login
-<img width="900" height="750" alt="login" src="https://github.com/user-attachments/assets/0caa554c-fcbc-4291-9153-de0c50d87e94" />
-### Main (Index)
-<img width="900" height="750" alt="main" src="https://github.com/user-attachments/assets/6021059c-3509-4737-bce3-a6c7f9e17a19" />
-### Add New Conversation
-<img width="900" height="750" alt="add_new_conversation" src="https://github.com/user-attachments/assets/fd772e2e-52ae-4f86-8c03-3c84c17b43ec" />
-### Start Chat
-<img width="900" height="750" alt="Untitled4" src="https://github.com/user-attachments/assets/83e4cd8e-39f6-4060-8e0d-189f04fbbe56" />
+### 📸 Interface Preview
+
+| Authentication | Chat Management |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/11483cf3-06e1-4bfb-b407-7e702a61eadf" width="400" /> <br> *Register Page* | <img src="https://github.com/user-attachments/assets/fd772e2e-52ae-4f86-8c03-3c84c17b43ec" width="400" /> <br> *Find Users* |
+| <img src="https://github.com/user-attachments/assets/0caa554c-fcbc-4291-9153-de0c50d87e94" width="400" /> <br> *Login Page* | <img src="https://github.com/user-attachments/assets/83e4cd8e-39f6-4060-8e0d-189f04fbbe56" width="400" /> <br> *Active Chat Session* |
+
+### 🏠 Main Dashboard
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6021059c-3509-4737-bce3-a6c7f9e17a19" width="850" title="Main Dashboard">
+</p>

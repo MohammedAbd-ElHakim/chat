@@ -76,22 +76,46 @@ The project is designed to be **plug & play**:
 ---
 
 ## 📂 Project Structure
-/Bootstrap
-  ├── install.php (install database automatic)
 
- /chat
-  ├── apis/
-  ├── checkdata/ (classes of the tables)
+```text
+├── 📦 Bootstrap
+│   └── 📄 install.php       # التثبيت التلقائي لقاعدة البيانات والجداول
+├── 📁 chat
+│   ├── 📁 apis/             # Endpoints (JSON responses)
+│   └── 📁 checkdata/        # Classes for table structure & validation
+├── 📁 core
+│   ├── 📁 database/         # Database logic & migrations
+│   ├── 📁 security_layers/  # Authentication & Session protection
+│   └── 📁 cache/            # Reserved for future caching needs
+├── 📁 vendor/               # Dependencies (phpdotenv, etc.)
+├── 📁 views/                # Frontend (HTML, CSS, JS)
+├── 📄 autoloader.php        # PSR-4 style class autoloader
+├── 📄 index.php             # Entry point (Auto-install & Router)
+└── 📄 .env                  # Configuration (Environment variables)
+```
+## 🚀 Quick Start (How to Run)
 
- /core
-  ├── database/ (tables of database which migration automatic by install.php)
-  ├── security_layers/
-  └── cache/ (مستقبلا عند الحاجه)
-  autoloader.php
-  /vendor/ (we use external package (vlucas/phpdotenv) to read env file )
- /views/ (front end)
- .env
- index.php (هنا يتم التسطيب التلقائي واعاده التوجيه الي الشات او تسجيل الدخول)
+The project is designed with a **Zero-Configuration** approach. You don't need to import any SQL files manually.
 
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/MohammedAbd-ElHakim/chat
+```
+### 2️⃣ Environment Configuration
 
+- Copy the example environment file and update it with your database credentials:
+- Rename .env.example to .env.
+- Open .env and set your database info:
+- 
+ ```bash
+  DB_HOST=127.0.0.1
+DB_DATABASE=chat       # Your preferred database name
+DB_USER=root           # Your DB username
+DB_PASSWORD=           # Your DB password
+APP_URL=http://localhost/chat
+```
+### 3️⃣ Launching the Application
+- Make sure your local server (XAMPP, Laragon, or WAMP) is running.
+- Access the project via your browser: http://localhost/chat.
+- The Magic Happens: The system will detect it's the first run, automatically create the database, tables, and triggers, then redirect you to the Login/Signup page.
 

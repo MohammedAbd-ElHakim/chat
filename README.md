@@ -121,12 +121,12 @@ APP_URL=http://localhost/chat
 
 ### Screens
 ### Register
-<img width="450" height="450" alt="register" src="https://github.com/user-attachments/assets/11483cf3-06e1-4bfb-b407-7e702a61eadf" />
+<img width="900" height="750" alt="register" src="https://github.com/user-attachments/assets/11483cf3-06e1-4bfb-b407-7e702a61eadf" />
 ### Login
-<img width="450" height="450" alt="login" src="https://github.com/user-attachments/assets/0caa554c-fcbc-4291-9153-de0c50d87e94" />
+<img width="900" height="750" alt="login" src="https://github.com/user-attachments/assets/0caa554c-fcbc-4291-9153-de0c50d87e94" />
 ### Main (Index)
-<img width="450" height="450" alt="main" src="https://github.com/user-attachments/assets/6021059c-3509-4737-bce3-a6c7f9e17a19" />
+<img width="900" height="750" alt="main" src="https://github.com/user-attachments/assets/6021059c-3509-4737-bce3-a6c7f9e17a19" />
 ### Add New Conversation
-<img width="450" height="450" alt="add_new_conversation" src="https://github.com/user-attachments/assets/fd772e2e-52ae-4f86-8c03-3c84c17b43ec" />
+<img width="900" height="750" alt="add_new_conversation" src="https://github.com/user-attachments/assets/fd772e2e-52ae-4f86-8c03-3c84c17b43ec" />
 ### Start Chat
-<img width="450" height="450" alt="Untitled4" src="https://github.com/user-attachments/assets/83e4cd8e-39f6-4060-8e0d-189f04fbbe56" />
+<img width="900" height="750" alt="Untitled4" src="https://github.com/user-attachments/assets/83e4cd8e-39f6-4060-8e0d-189f04fbbe56" />
